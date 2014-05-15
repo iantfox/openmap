@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenMap</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="OEroadTitle">18 Road Trails</string>
+    <string name="OEroadData">System Difficulty:   Easy\nSystem Length:   >10 miles\n</string>
+    <string name="list_trails">List of Trails</string>
+    <string name="system_difficulty">System Difficulty:</string>
+    <string name="system_length">System Length:</string>
+    <string name="OEdifficulty">Easy</string>
+    <string name="OElength">10.76 Miles</string>
+    <string name="difficulty">Trail Difficulty</string>
+    <string name="DB_PATH">/res/raw/</string>
+    <string name="DB_NAME">testdatabase</string>
+
+</resources>

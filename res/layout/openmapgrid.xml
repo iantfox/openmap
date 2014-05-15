@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/fox.test.openmap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="3" >
+
+    <android.support.v7.widget.Space
+        android:id="@+id/space1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+	<!-- Page Title -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_column="0"
+        app:layout_gravity="left"
+        app:layout_row="0"
+        android:text="@string/OEroadTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- System Difficulty Header -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        app:layout_column="0"
+        app:layout_gravity="left"
+        app:layout_row="1"
+        android:text="@string/system_difficulty"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+	<!-- Actual System Difficulty -->
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        app:layout_column="1"
+        app:layout_gravity="center"
+        app:layout_row="1"
+        android:text="@string/OEdifficulty"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+    <!-- System Length Header -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        app:layout_column="0"
+        app:layout_gravity="left"
+        app:layout_row="2"
+        android:text="@string/system_length"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <!-- Actual System Length -->
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        app:layout_column="1"
+        app:layout_gravity="top"
+        app:layout_row="2"
+        android:text="@string/OElength"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<!-- List of Trails -->
+    <TextView
+        android:id="@+id/OEtraillist"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        app:layout_column="0"
+        app:layout_gravity="left"
+        app:layout_row="3"
+        android:text="@string/list_trails"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="onClick"
+        android:clickable="true" />
+    
+</android.support.v7.widget.GridLayout>
